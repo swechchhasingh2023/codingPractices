@@ -1,7 +1,7 @@
 package Coding50Problems;
 
 // optimal solution
-public class SecondLargestElement {
+public class SecondLargestElement_2 {
 
 	public static void main(String[] args) {
 		int[] arr = {10, 20, 5, 63, 98, 8, 30};
