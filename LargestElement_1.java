@@ -45,3 +45,7 @@ public class LargestElement_1 {
 //}
 //Time Complexity: O(n log n)
 //Space Complexity: O(1) (ignoring sort’s internal space)
+
+//Naively, I can sort the array in O(n log n) and take the last element.
+//But sorting is unnecessary overhead, so the optimal solution is just a 
+//single pass, O(n), keeping track of the maximum.
